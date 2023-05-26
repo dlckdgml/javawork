@@ -18,16 +18,7 @@ public class Lotto {
     				 if(lotto[i] == lotto[j]) {
     					 i--;
     					 break;
-    				 }
-    			 }
-    		 }
-    		 
-    	     r
-    
-    	return "";
-    	
-    }
-	
+
 	
 	
 	
@@ -40,5 +31,5 @@ public class Lotto {
     	
     }
 }
-	
+    			
 

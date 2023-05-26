@@ -79,13 +79,13 @@ public class OperatorPractice {
 		String result = null;
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("어린이 나이값 입력 > ");
+		System.out.println("어린이 나이값 입력 > ");
 		num2 = sc.nextInt();
 		
-		System.out.print("청소년 나이값 입력 > ");
+		System.out.println("청소년 나이값 입력 > ");
 		num3 = sc.nextInt();
 		
-		System.out.print("성인 나이값 입력 > ");
+		System.out.println("성인 나이값 입력 > ");
 		num4 = sc.nextInt();
 		
 		result = ("num1 < num2 ? 결과가 13세 이하입니다");
@@ -110,11 +110,10 @@ public class OperatorPractice {
 	    
 		System.out.print("사과 개수 > ");
 		int a = sc.nextInt();
-		
 		int apple = 5;
 		
-		System.out.print("바구니 크기 > ");
-		int b = sc.nextInt();
+		
+		
 		
 		
 		

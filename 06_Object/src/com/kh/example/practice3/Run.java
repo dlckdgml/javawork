@@ -24,7 +24,5 @@ public class Run {
 		 }
 	 }
 	 
-     return.Arrays.toString(lotto);
-	}
-
+}
 }
