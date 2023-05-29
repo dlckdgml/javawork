@@ -1,5 +1,7 @@
 package com.kh.practice;
 
+import java.util.Scanner;
+
 public class ArrayPractice {
 
 	/*
@@ -55,7 +57,13 @@ public class ArrayPractice {
 		System.out.println("beef");
 		System.out.println("2개");
 		System.out.println("배달가능 > ");
-
+		
+		sc.Scanner be = new Scanner(System.in);
+		
+            String be = ("beef");       
+            String be = 2;
+            String be = ("배달가능 > ");
+            
 	}
 
 	/*
@@ -66,6 +74,13 @@ public class ArrayPractice {
 	 * 
 	 */
 	public void method4() {
+		System.out.println("숫자 입력 > ");
+		int[] number = {1, 2, 3, 4, 5, 6};
+		int[] number2 = {1, 2, 3, 4, 5,  6, 7};
+		int[] number3 = {1, 2, 3, 4, 5, 6,}; 
+		
+	  
+		
 
 	}
 
@@ -77,6 +92,11 @@ public class ArrayPractice {
 	 */
 
 	public void method5() {
+		System.out.println("단어 입력 > ");
 		
 		
 	}
+		
+}		
+		
+	

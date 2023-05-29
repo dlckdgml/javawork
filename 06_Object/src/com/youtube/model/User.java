@@ -7,6 +7,9 @@ public class User {
 	private String id;
 	private String password;
 	private String nickname;
+	private char gender1;
+	
+	Video video;
 	
 	public User(String email, String phone, String id, String password, String nickname, char gender) {
 		
@@ -15,13 +18,13 @@ public class User {
 		this.id = id;
 		this.password = password;
 		this.nickname = nickname;
-		this.gender = gender;
+		this.gender1 = gender;
 	}
 
 	@Override
 	public String toString() {
 		return "User [email=" + email + ", phone=" + phone + ", id=" + id + ", password=" + password + ", nickname="
-				+ nickname + ", gender=" + gender + "]";
+				+ nickname + ", gender=" + gender1 + "]";
 	}
 
 	public String getEmail() {
@@ -65,11 +68,11 @@ public class User {
 	}
 
 	public char getGender() {
-		return gender;
+		return gender1;
 	}
 
 	public void setGender(char gender) {
-		this.gender = gender;
+		this.gender1 = gender;
 	}
 
 	private char gender;
