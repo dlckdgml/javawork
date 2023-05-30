@@ -45,7 +45,8 @@ public class OperatorPractice {
 		int num2 = 10;
 		int num3 = 100;
 		
-		System.out.print("0 == 10 : " + (0 - 10)); //true
+		System.out.print("0 == 10 : " + (0 - 10)); 
+		
 		
 	
 		

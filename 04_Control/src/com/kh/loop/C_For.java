@@ -93,14 +93,14 @@ public class C_For {
 		// 1부터 랜덤값까지의 합계
 
 		/*
-		 * java.lang.math 클래스에서 제공하는 random() 메소드 호출햇 매번 다른 랜덤값을 얻어 낼 수 있음!
+		 * java.lang.math 클래스에서 제공하는 random() 메소드 호출해서 매번 다른 랜덤값을 얻어 낼 수 있음!
 		 */
 
 		double random = Math.random();
 		// System.out.println(random); // 0.0 <= random, <1.0
 
 		random = Math.random() * 10;
-		// System.out.println(random); // 0.0 <= random <10.0
+		// System.out.println(random); // 0.0 <= random <10.
 
 		random = Math.random() * 10 + 1;
 		// System.out.println(random); // 1.0 <= random < 11
@@ -184,6 +184,7 @@ public class C_For {
 		for (int i = 1; i <= 9; i++) {
 
 			System.out.println(dan+"*" + i+ " = " + i * dan);
+		
 		}
        
 		

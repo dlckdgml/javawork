@@ -70,7 +70,7 @@ public class D_While {
 
 	public void method6() {
 		
-		int 
+		
 		
 		while(true) {
 			System.out.println("-----------");
@@ -88,27 +88,7 @@ public class D_While {
               
          
             
-            	Switch(menu) {
-            		
-            	
-             
-                case 1:
-             		System.out.print("예금액 > ");
-            		balance += Integer.parseInt(sc.nextLine());
-            		break;
-            	case 2:
-            		System.out.print("출금액 > ");
-            		balance -= Integer.parsInt(sc.nextLine());
-            		break;
-            		
-            	case 3:
-            		System.out.print("잔고 > ");
-            		System.out.print(balance);
-            		break;
-            	case 4:	
-            		
-            		run = false;
-            		break
+          
             
             	
             	

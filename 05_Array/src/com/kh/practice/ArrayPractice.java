@@ -56,13 +56,7 @@ public class ArrayPractice {
 
 		System.out.println("beef");
 		System.out.println("2개");
-		System.out.println("배달가능 > ");
-		
-		sc.Scanner be = new Scanner(System.in);
-		
-            String be = ("beef");       
-            String be = 2;
-            String be = ("배달가능 > ");
+		System.out.println("배달가능 > ");        
             
 	}
 

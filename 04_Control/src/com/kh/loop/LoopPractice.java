@@ -37,6 +37,8 @@ class LoopPractice {
     // 1+(-2)+3+(-4)+...과 같은 식으로 계속 더해나갔을 때, 몇까지 더해야 총합이 100 이상 되는지 출력하시오.
     public void method2() {
     	
+    	
+    	
     }
 
     /*
@@ -74,6 +76,7 @@ class LoopPractice {
     	System.out.print("random");
     	int num = sc.nextInt();
     	
+    	
     
     }
 
@@ -89,13 +92,45 @@ class LoopPractice {
 
      */
     public void method5() {
-    	System.out.print("random");
-    	int num = sc.nextInt();
-    	int i = 10;
     	
-        System.out.println("random");
-        
-        
+    	double answer = (double) (Math.random() * 10) + 1;
+    	double input = 0;
+    	double count = 0;
+    	
+    	
+    	double random = Math.random();
+    	System.out.println(random);
+    	random = 10;
+    	
+    
+    	random = Math.random() * 1 + 3;  
+    	System.out.println(random);
+    	
+    	random = Math.random() * 2 + 0;
+    	System.out.println(random);
+    	
+    	random = Math.random() * 3 + 1;
+    	System.out.println(random);
+    	
+    	random = Math.random() * 4 + 0;
+    	System.out.println(random);
+    	
+    	random = Math.random() * 5 + 4;
+    	System.out.println(random);
+    	
+    	random = Math.random() * 6 + 0;
+    	System.out.println(random);
+    	
+    	System.out.println("눈의 수 입력 > ");
+    	int count1 = sc.nextInt();
+    	
+    	System.out.println((int) random);
+    	
+    	
+    	
+    
+    	
+     
         
         
        
@@ -129,11 +164,24 @@ class LoopPractice {
     */
     public void method6() {
     	
-    	if 
+    	System.out.println("당신의 이름을 입력해주세요 : ");
+    	System.out.println("가위바위보 : ");
+    	System.out.println("컴퓨터 : ");
+    	System.out.println("박신우 : ");
+    	System.out.println("비겼습니다.");
+    	
+    	
+    	
+   
+    	
     	
 
     }
     
+    LoopPractice lo = new LoopPractice();
+    
+    //lo.method()1;
+    //lo.method()2;
     
     
 
