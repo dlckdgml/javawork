@@ -1,8 +1,6 @@
 package com.kh.array.practice2.controller;
 
-​
-
-import com.kh.array.practice1.model.Student;
+​import com.kh.array.practice1.model.Student;
 import com.kh.array.practice2.model.Member;​
 
 public class MemberController {

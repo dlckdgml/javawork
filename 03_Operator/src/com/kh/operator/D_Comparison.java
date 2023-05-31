@@ -1,4 +1,4 @@
-spackage com.kh.operator;
+package com.kh.operator;
 
 import java.util.Scanner;
 

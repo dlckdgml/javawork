@@ -44,10 +44,17 @@ public class OperatorPractice {
 		int num1 = 0;
 		int num2 = 10;
 		int num3 = 100;
+			 
+		System.out.println(0);
+		System.out.println(10);
+		System.out.println(100);
 		
-		System.out.print("0 == 10 : " + (0 - 10)); 
+		System.out.println();
 		
-		
+		for(int i = 1; i <= 1; i++) {
+			System.out.println(i);
+		}
+	
 	
 		
 		
@@ -112,6 +119,8 @@ public class OperatorPractice {
 		System.out.print("사과 개수 > ");
 		int a = sc.nextInt();
 		int apple = 5;
+		
+		System.out.println(a);
 		
 		
 		

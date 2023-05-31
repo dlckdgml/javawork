@@ -16,6 +16,7 @@ class LoopPractice {
         2
         1
      */
+	
     public void method1() {
     	System.out.print("숫자 입력 > ");
     	int num = sc.nextInt();
@@ -29,7 +30,7 @@ class LoopPractice {
   
     }
  
-    	
+    
     	
       
     
@@ -37,7 +38,9 @@ class LoopPractice {
     // 1+(-2)+3+(-4)+...과 같은 식으로 계속 더해나갔을 때, 몇까지 더해야 총합이 100 이상 되는지 출력하시오.
     public void method2() {
     	
-    	
+      int score = 100;
+        
+        
     	
     }
 
@@ -50,10 +53,16 @@ class LoopPractice {
 
     */
     public void method3() {
-    	System.out.print("문자 입력 > ");
-    	String l = sc.next();
     	
-        String str = (l);
+    	int number = 3;
+    	String str = "banana";
+    	
+    	System.out.print("문자 입력 > ");
+    	
+    	
+    	
+       
+        
         
        
     	
@@ -73,9 +82,12 @@ class LoopPractice {
      */
     public void method4() {
     	
+    	int count = 0;
+    	
     	System.out.print("random");
     	int num = sc.nextInt();
     	
+
     	
     
     }
@@ -164,11 +176,9 @@ class LoopPractice {
     */
     public void method6() {
     	
-    	System.out.println("당신의 이름을 입력해주세요 : ");
-    	System.out.println("가위바위보 : ");
-    	System.out.println("컴퓨터 : ");
-    	System.out.println("박신우 : ");
-    	System.out.println("비겼습니다.");
+          System.out.println("당신으 이름을 입력해주세요.");
+          
+    	
     	
     	
     	
@@ -182,7 +192,7 @@ class LoopPractice {
     
     //lo.method()1;
     //lo.method()2;
-    
+    //lo.method()3;
     
 
 }
