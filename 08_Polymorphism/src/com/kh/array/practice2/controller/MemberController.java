@@ -12,7 +12,7 @@ public class MemberController {
 //	public void insertMember(String id, String name, String password, 
 //			                 String email, char gender, int age) {
 	// 2번의 경우
-	public void insertMember(Member m) {
+	public void insertMember(java.lang.reflect.Member m1) {
 		// 객체 배열에 객체 하나씩 추가한다고 생각!
 		// count를 인덱스라고 생각!
 		// score[0] = 100;
@@ -22,7 +22,7 @@ public class MemberController {
 		 * mArr[count++] = new Member(m.getId(), m.getName(), m.getPassword(),
 		 * m.getEmail(), m.getGender(), m.getAge());
 		 */
-		mArr[count++] = m;
+		mArr[count++] = m1;
 
 	}
 

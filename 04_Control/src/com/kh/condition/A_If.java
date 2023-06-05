@@ -76,10 +76,10 @@ public class A_If {
 		 System.out.println("이창희".charAt(0)); // String 클래스의 charAt(0) 메소드
 		 
 		//본인이면 "본인이다." , 본인이 아니라면 "본인이 아니다."
-	    if("이창희". eqlus(name))	{
+	    if {
 	    	System.out.println("본인이다.");
 	    } else {
-	    	System.out.println("본인이 아니다."):
+	    	System.out.println("본인이 아니다.");
 	    }
 	    
 	 }

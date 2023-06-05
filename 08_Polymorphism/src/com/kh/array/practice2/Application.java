@@ -36,7 +36,7 @@ public class Application {
 			switch(Integer.parseInt(sc.nextLine())) {
 			
 			case 1:
-				this.insertMember();
+				this.insertMember(null);
 				break;
 				
 			case 2:
@@ -87,7 +87,7 @@ public class Application {
 		   // 1번의 경우
 		   // mc.insertMember(id, name, password, email.gender,age);
 		   
-		   Member m = new Member(id, name, password, email, gender, age);
+		   Member m1 = new Member(id, name, password, email, gender, age);
 		   
 		   // 2번의 경우 - setter로 값을 임시 저장해서 넘기기!
 		   /*
@@ -99,7 +99,7 @@ public class Application {
 		   m.setGender(gender);
 		   m.setAge(age);
 		   */
-		   mc.insertMember(m);
+		   mc.insertMember(m1);
 	
 		}
 	}
