@@ -17,7 +17,7 @@ public class Book {
 
 	private static Book singleton = new Book();
 
-	private Book() {
+	public Book() {
 	}
 
 	public static Book geInstance() {
