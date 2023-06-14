@@ -13,7 +13,7 @@ public class A_Date {
 //		a.method1();
 //		a.method2();
 //		a.method3();
-		a.practice();
+//		a.practice();
 }
 
 	/*

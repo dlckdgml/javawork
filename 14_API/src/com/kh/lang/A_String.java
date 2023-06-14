@@ -18,11 +18,11 @@ public class A_String {
   public static void main(String[] args) {
 		
 		A_String a = new A_String();
-		a.method1();
-		a.method2();
-		a.method3();
+//		a.method1();
+//		a.method2();
+//		a.method3();
 //		a.method4();
-		a.method5();
+//		a.method5();
 	}
   
     /*
@@ -168,9 +168,36 @@ public class A_String {
     	System.out.println("str10 : " + str10);
     	System.out.println("str11 : " + str11);
     }
-
-  
-  
+    
+    /*
+     *  StringBuilder & StringBuffer
+     * - 가변의 클래스 : 내부의 문자열을 수정할 수 있음
+     * - 16개의 문자를 저장할 수 있는ㅂ 버퍼가 미리 생성되고 문자가 저장됨에 따라 자동으로 증가
+     * - StringBuilder와 StringBuffer의 차이점
+     *   : 동기화가 되느냐 안되느냐
+     *   - 멀티 스레드 환경 : StringBuffer 사용 권장
+     *   - 단일 스레드 환경 : StringBuilder 사용 권장
+     * */
+    public void method3() {
+    	
+    	// 기본 생성자를 통해서 객체를 생성하면 
+    	// 16개의 문자를 저장할 수 있는 버퍼가 생성
+    	StringBuilder sb1 = new StringBuilder();
+    	System.out.println("sb1의 문자열 길이 : " + sb1.length()); // 0
+    	System.out.println("sb2의 버퍼의 크기 : " + sb1.capacity()); //16
+    	
+    	// StringBuilder 클래스의 생성자에 정수값을 전달해주면
+    	// 해당 크기 만큼의 버퍼가 생성
+    	StringBuilder sb2 = new StringBuilder(30);
+    	System.out.println("sb2의 문자열 길이 : " + sb2.length());
+    	System.out.println("sb2의 버퍼의 크기 : " + sb2.capacity());
+    	
+    	// StringBuilder 클래스의 생성자에 문자열을 전달해주면
+    	// 문자열 크기 + 16 만큼의 버퍼가 생성
+    	StringBuilder sb3 = new StringBuilder("Hello");
+    	System.out.println("sb3의 문자열 길이 : " + sb3.length());
+    	System.out.println("sb3의 버퍼의 크기 : " + sb3.capacity());
+    }
   
 	//String Builder
 	public void method4() {
